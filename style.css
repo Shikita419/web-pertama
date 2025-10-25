@@ -1,0 +1,173 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  height: 80vh;
+}
+.navbar {
+  background-color: #333;
+  width: 100%;
+  height: 100px;
+  height: 10vh;
+}
+
+.konten-about {
+  background-color: #8b8b8b;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.konten {
+  background-color: #8b8b8b;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kontens-contact {
+  background-color: #8b8b8b;
+  color: white;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 80vh;
+}
+.konten-contact {
+  background-color: #171717;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 55px;
+  transition: 0.2s ease;
+  border-radius: 30px;
+}
+.konten-contact:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgb(14, 14, 14);
+}
+.a-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+.img-contact {
+  display: block;
+  width: 90px;
+  height: 80px;
+  object-fit: contain;
+}
+.Nama {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* ubah ke flex-start agar konten mulai dari atas */
+  padding-top: 20px; /* tambah padding atas agar tidak terlalu menempel */
+  height: 100%;
+  background-color: #717171;
+  
+}
+.table td {
+  text-align: center;
+  border-style: solid;
+  border-color: #333;
+  padding: 20px 10px 10px 10px; /* tambah padding atas lebih besar */
+  background-color: #333;
+  font-size: larger;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  vertical-align: top; /* teks mulai dari atas */
+  color: white;
+}
+
+.table td:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 50px;
+}
+.nama-td {
+  vertical-align: top; /* teks mulai dari atas */
+  padding-top: 20px; /* tambah ruang di atas */
+}
+.TJKT {
+  width: 200px;
+  height: 200px;
+}
+.Foto {
+  width: 100px;
+}
+.a-content {
+  background-color: rgb(127, 125, 125);
+  width: 400px;
+  height: 300px;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+  display: flex;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 15px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.konten-img {
+  background-color: #fff;
+  width: 720px;
+  height: 480;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+}
+#generasi {
+  background: red;
+  width: 500px;
+  height: 500px;
+}
+.footer {
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.li-navbar {
+  font-size: 30px;
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+.li-navbar:hover {
+  background-color: rgb(31, 31, 31);
+  transition: 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.h1-footer {
+  font-size: 50px;
+}
+.a-navbar {
+  color: #fff;
+  text-decoration: none;
+}
